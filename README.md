@@ -1,4 +1,5 @@
-# [<img src="https://app.tomba.io/logo.svg" alt="Tomba" width="25"/>](https://tomba.io/) Tomba Email Finder Python Client Library
+# Company and Email Enrichment API Python
+
 
 This is the official Python client library for the [Tomba.io](https://tomba.io) Email Finder API,
 allowing you to:
@@ -6,17 +7,15 @@ allowing you to:
 - [Domain Search](https://tomba.io/domain-search) (Search emails are based on the website You give one domain name and it returns all the email addresses found on the internet.)
 - [Email Finder](https://tomba.io/email-finder) (This API endpoint generates or retrieves the most likely email address from a domain name, a first name and a last name..)
 - [Author Finder](https://tomba.io/author-finder) (Instantly discover the email addresses of article authors.)
-- [Enrichment](https://tomba.io/author-finder) (The Enrichment lets you find the current job title, company, location and social profiles of the person behind the email.)
-- [Linkedin Finder](https://tomba.io/author-finder) (The Linkedin lets you find the current job title, company, location and social profiles of the person behind the linkedin URL.)
+- [Enrichment](https://tomba.io/enrichment) (The Enrichment lets you find the current job title, company, location and social profiles of the person behind the email.)
+- [Linkedin Finder](https://tomba.io/linkedin-finder) (The Linkedin lets you find the current job title, company, location and social profiles of the person behind the linkedin URL.)
 - [Email Verifier](https://tomba.io/email-verifier) (checks the deliverability of a given email address, verifies if it has been found in our database, and returns their sources.)
 - [Email Sources](https://developer.tomba.io/#email-sources) (Find email address source somewhere on the web .)
-- [Company Domain autocomplete](https://developer.tomba.io/#autocomplete) (Company Autocomplete is an API that lets you auto-complete company names and retrieve logo and domain information.)
 
 # Getting Started
 
 You'll need an Tomba API access token, which you can get by signing up for a free account at [https://app.tomba.io/auth/register](https://app.tomba.io/auth/register)
 
-The free plan is limited to 25 search request and 50 verification a month,  To enable all the data fields and additional request volumes see [https://tomba.io/pricing](https://tomba.io/pricing).
 
 ## Installation
 
